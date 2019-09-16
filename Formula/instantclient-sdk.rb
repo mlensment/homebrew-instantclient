@@ -12,7 +12,7 @@ class InstantclientSdk < Formula
                      hp
                    end
                  end)
-  sha256 "b46b4b87af593f7cfe447cfb903d1ae5073cec34049143ad8cdc9f3e78b23b27"
+  sha256 "6b4e9370bc2aa0524c4ff96dc48f57e01f4fded8806ccbfc998016dcacb5f705"
 
   def install
     lib.install ["sdk"]
