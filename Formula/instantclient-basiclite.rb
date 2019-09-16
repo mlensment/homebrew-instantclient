@@ -6,13 +6,13 @@ class InstantclientBasiclite < Formula
   homepage "https://www.oracle.com/technetwork/topics/intel-macsoft-096467.html"
   hp = homepage
 
-  url "http://download.oracle.com/otn/mac/instantclient/181000/instantclient-basiclite-macos.x64-18.1.0.0.0.zip",
+  url "https://download.oracle.com/otn_software/mac/instantclient/193000/instantclient-basiclite-macos.x64-19.3.0.0.0dbru.zip",
       :using => (Class.new(CacheWoDownloadStrategy) do
                    define_method :homepage do
                      hp
                    end
                  end)
-  sha256 "027eba2291c5372d8e5b54a455b61fe05c6a19f056aa4eecd1e941efb0b39239"
+  sha256 "d7897cef7ad672a5e355aa14e6a447f8e10570ec02a9a2c13b5d5d8272f00ea4"
 
   conflicts_with "instantclient-basic"
 
